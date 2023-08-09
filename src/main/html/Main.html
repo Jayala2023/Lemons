@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <title>PoorDash</title>
         <link rel="stylesheet" href="main.css"/>
+        <script src="./main.js" defer></script>
     </head>
     <body>
         <header>
@@ -16,7 +17,7 @@
         </header>
         <main>
             <h2>PoorDash</h2>
-            <div id="userContainer">
+            <div id="userContainer" onclick="link()">
                 <a class="userBox">
                     <div class="userImage">
                         <img src = "../Images/mcdonalds.png"/>
@@ -42,14 +43,6 @@
                     </div>
                 </a>
             </div>
-            <script>
-                function link() {
-                    const link = document.createElement('a');
-                    link.href = 'https://www.google.com';
-                    link.textContent = 'Google';
-                    document.body.appendChild(link);
-                }
-            </script>
 
         </main>
        <footer>
