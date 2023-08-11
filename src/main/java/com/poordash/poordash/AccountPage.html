@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:wicket="http://www.w3.org/1999/xhtml">
+<form wicket:id="account-page">
+<head>
+  <meta charset="UTF-8">
+  <title>accountPage</title>
+  <link rel="stylesheet" type="text/css" href="accountPage.css"/>
+</head>
+<body>
+<header>
+  <div class="navbar">
+    <img wicket:id="header-logo" src="poordash_2.png" alt=""/>
+    <wicket:link>
+    <a href="HomePage.html">Home</a>
+    <a href="AccountPage.html">Account</a>
+    </wicket:link>
+    <p>PoorDash</p>
+  </div>
+</header>
+<main>
+  <div class="login-container">
+    <h1>Login PoorDash</h1>
+    <form>
+      <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <button type="submit">Login</button>
+    </form>
+  </div>
+  <div class="create-container">
+    <h2>Don't have an account?</h2>
+    <wicket:link>
+      <a href="accountCreation.html">
+      <p class="remove-link">Click Here!</p>
+    </a>
+    </wicket:link>
+  </div>
+</main>
+<footer>
+
+</footer>
+</body>
+</form>
+</html>
