@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:wicket="http://www.w3.org/1999/xhtml">
+<form wicket:id="form">
+    <head>
+        <meta charset="UTF-8">
+        <title>PoorDash</title>
+        <link rel="stylesheet" type="text/css" href="main.css"/>
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <img wicket:id="header-logo" id="header-logo" src="poordash_2.png"/>
+                <wicket:link>
+                <a href="HomePage.html">Home</a>
+                <a href="AccountPage.html">Account</a>
+                </wicket:link>
+                <p>PoorDash</p>
+            </div>
+        </header>
+        <main>
+<!--            <span wicket:id="message">Message goes here</span>-->
+            <h2>PoorDash</h2>
+            <div id="userContainer">
+                <div class="userBox">
+                    <div class="userImage">
+                        <img wicket:id="restaurant-img" src="mcdonalds.png"/>
+                    </div>
+
+                    <div>
+                        <div>
+                            <label>Name:</label> Mcdonald's
+                        </div>
+                        <div>
+                            <label>Price:</label> $
+                        </div>
+                        <div>
+                            <label>Address:</label> 123 random st
+                        </div>
+                        <div>
+                            <label>Hours:</label> Open All Day
+                        </div>
+                        <div>
+                            <label>Rating:</label> 3.5
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </main>
+       <footer>
+
+       </footer>
+    </body>
+</form>
+</html>
